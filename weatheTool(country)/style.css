@@ -1,0 +1,79 @@
+body {
+  background-color: #a8a5ff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #6b63d6;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 40px 8px 12px;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%227%22%20viewBox%3D%220%200%2012%207%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M6%207L0%200h12L6%207z%22%20fill%3D%22%23666%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px 7px;
+  transition: border-color 0.3s ease;
+}
+
+select:hover,
+select:focus {
+  border-color: #666;
+}
+
+#result {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  background-color: #827df9;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  text-align: center;
+  /* align-items: center; */
+}
+#result h2 {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#result img.flag {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.weather-info img {
+  height: 1.2em;
+  width: auto;
+  vertical-align: middle;
+}
+
+.weather-details {
+  margin-top: 8px;
+  color: #666;
+  font-size: 0.9rem;
+}
