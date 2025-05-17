@@ -1,0 +1,101 @@
+/* 通用樣式 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+
+/* 表單樣式 */
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 75%;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.submit-btn {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* 任務清單區域 */
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+/* 單一任務樣式 */
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.work span {
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+/* 完成狀態 */
+.completed--true span {
+  text-decoration: line-through;
+  color: #888;
+  opacity: 0.7;
+}
+
+/* 按鈕樣式 */
+.toggle-btn,
+.delete-btn {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.toggle-btn:hover {
+  background-color: #5548e0;
+}
+
+.delete-btn:hover {
+  background-color: #e55353;
+}
